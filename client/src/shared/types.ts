@@ -6,3 +6,9 @@ export enum SelectedPage {
     contact = "contact",
     Merch = "merch",
   }
+
+  export interface BenefitType {
+    icon: JSX.Element;
+    title: string;
+    description: string;
+  }
