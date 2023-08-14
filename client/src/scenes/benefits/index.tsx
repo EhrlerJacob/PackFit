@@ -86,18 +86,18 @@ const Benefits = ({setSelectedPage}: Props) => {
                 {/* Graphic */}
                 <img
                 className="mx-auto"
-                alt=""
+                alt="motvation"
                 src={Statement2} />
                 
                 {/* Description */}
                 <div>
                     {/* title */}
-                    <div className="relative">
-                        <div className="before: absolute before: -top-20 before:-left-20 before:z-[-1] before:content-abstractwaves">
-                            <div className="md: mt-10">
+                    <div className="relative ">
+                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] before:content-abstractwaves">
+                            <div className="md: my-15">
                                 <HText>
-                                    MAKE THE PACT, JOIN THE {" "}
-                                    <span className="text-secondary-500">PACK</span>
+                                    NEVER QUIT, GET PACK {" "}
+                                    <span className="text-secondary-500">FIT</span>
                                 </HText>
                             </div>
                         </div>

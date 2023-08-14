@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import Navbar from "./scenes/navbar/index";
 import { SelectedPage } from "./shared/types";
-import Benefits from "./scenes/benefits";
-// import Benefits from "@/scenes/benefits";
+import Benefits from "@/scenes/benefits";
+import Home from "@/scenes/home";
+import OurPlans from "@/scenes/plans";
 
 function App () {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -22,14 +23,15 @@ function App () {
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
   return (
-    <div className="app bg-gray-20">
+    <div className="app">
     <Navbar
       isTopOfPage = {isTopOfPage}
-      selectedPage={selectedPage} setSelectedPage={setSelectedPage}
-      />
-    <Benefits
+      selectedPage={selectedPage} 
       setSelectedPage={setSelectedPage}
       />
+    <Home setSelectedPage={setSelectedPage} />
+    <Benefits setSelectedPage={setSelectedPage} />
+    <OurPlans setSelectedPage={setSelectedPage} />
     </div>
   )
 }

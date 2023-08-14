@@ -12,3 +12,9 @@ export enum SelectedPage {
     title: string;
     description: string;
   }
+
+  export interface PlanType {
+    name: string;
+    description?: string;
+    image?: string;
+  }
