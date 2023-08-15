@@ -16,7 +16,7 @@ const benefits: Array<BenefitType> = [
     icon: <AcademicCapIcon className="h-6 w-6"/>,
     title: "Professional Personal Training",
     description:
-    "NASM & ISSA Certified personal trainers with years of experience in fitness, eager to share their knowledge and help you become the best version of yourself.",
+    "NASM & ISSA Certified personal trainers with years of experience in all things fitness, eager to share their knowledge and help you become the best version of yourself.",
    },
    {
     icon: <ChartPieIcon className="h-6 w-6"/>,

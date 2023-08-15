@@ -3,7 +3,7 @@ export enum SelectedPage {
     Benefits = "benefits",
     About = "about",
     Plans = "plans",
-    contact = "contact",
+    Contact = "contact",
     Merch = "merch",
   }
 

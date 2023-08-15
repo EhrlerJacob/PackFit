@@ -2,12 +2,19 @@ import HText from "@/shared/HText";
 import { SelectedPage, PlanType } from "@/shared/types";
 import {motion} from "framer-motion"
 import Plan from "./Plan";
+import image1 from "@/assets/gym.jpg";
+import image2 from "@/assets/challenge.png";
 
 const plans: Array<PlanType> = [
     {
         name: "Strength Training Programs",
         description: "Pack Fitness wants to help ypu become stronger in both the body and the mind. We offer strength training programs to help you gain both strength and muscle mass",
-        image: "",
+        image: image1,
+    },
+    {
+        name: "Fitness Challenges",
+        description: "At Pack Fitness, we strive to give you a sense of both community but also competition, so we like to sprinkle in fitness challenges every once in a while.",
+        image: image2,
     },
     {
         name: "Nutritional Plans",
@@ -17,11 +24,6 @@ const plans: Array<PlanType> = [
     {
         name: "Health and Wellness Training",
         description: "Pack Fitness understands that life happens, so we can design a plan just for you to help you get back on track",
-        image: "",
-    },
-    {
-        name: "Fitness Challenges",
-        description: "At Pack Fitness, we strive to give you a sense of both community but also competition, so we like to sprinkle in fitness challenges every once in a while.",
         image: "",
     },
     {
