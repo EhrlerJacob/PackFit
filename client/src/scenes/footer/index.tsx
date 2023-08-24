@@ -27,7 +27,10 @@ const Footer = () => {
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Contact Us</h4>
                 <p className="my-5">Alex Mitchell</p>
-                <p> Mobile Number: +1 (386)-406-4840</p>
+                <p> Mobile Number:
+                    <a href="tel:13864064840">
+                    +1 (386)-406-4840
+                    </a></p>
             </div>
         </div>
     </footer>

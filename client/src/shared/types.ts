@@ -4,7 +4,7 @@ export enum SelectedPage {
     About = "about",
     Plans = "plans",
     Contact = "contact",
-    Merch = "merch",
+    Blog= "blog",
   }
 
   export interface BenefitType {
@@ -17,4 +17,10 @@ export enum SelectedPage {
     name: string;
     description?: string;
     image?: string;
+  }
+
+  export interface BlogType {
+    name: string;
+    length: number;
+    notes: string;
   }

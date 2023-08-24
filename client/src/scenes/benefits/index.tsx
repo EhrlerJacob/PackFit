@@ -93,7 +93,7 @@ const Benefits = ({setSelectedPage}: Props) => {
                 <div>
                     {/* title */}
                     <div className="relative ">
-                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] before:content-abstractwaves">
+                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1]">
                             <div className="md: my-15">
                                 <HText>
                                     NEVER QUIT, GET PACK {" "}
